@@ -65,4 +65,4 @@ my-project/
 
 ## **🎨 Screenshot**
 
-![QR Code Generator Screenshot](assets/screenshot.png)  <!-- Optional: add a screenshot in your assets folder -->
+![QR Code Generator Screenshot](assets/qr-gen-ss)(assets/qr-gen-ss2)  <!-- Optional: add a screenshot in your assets folder -->
