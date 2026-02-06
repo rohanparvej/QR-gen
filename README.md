@@ -22,7 +22,7 @@ A **free, fast, and simple QR code generator** — no sign-ups, no data collecti
 
 ## **📦 Usage**
 
-1. Open the project in your browser: [Live Demo](https://YOUR_USERNAME.github.io/my-project/)  
+1. Open the project in your browser: [Live Demo](https://rohanparvej.github.io/QR-gen/)  
 2. Enter the text, URL, or data you want to convert.  
 3. Click **Generate** — your QR code appears instantly.  
 4. Save or scan as needed.  
@@ -59,7 +59,7 @@ my-project/
 
 ## **⚡ Live Demo**
 
-[Try it now!](https://YOUR_USERNAME.github.io/my-project/)
+[Try it now!](https://rohanparvej.github.io/QR-gen/)
 
 ---
 
