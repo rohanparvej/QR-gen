@@ -66,5 +66,5 @@ my-project/
 ## **🎨 Screenshot**
 
 ![QR Code Generator Screenshot](assets/qr-gen-ss.png) 
-[](assets/qr-gen-ss2.png)
+![Screenshot 2](assets/qr-gen-ss2.png)
 <!-- Optional: add a screenshot in your assets folder -->
