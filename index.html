@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qr-gen | Simple QR Generator</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/QR-gen-logo-final.png" alt="QR-gen" />
+          </a>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-container">
+        <section class="hero-text">
+          <h1>Generate QR Codes Instantly</h1>
+          <p>
+            Create clean, scannable QR codes for links, text, and more —
+            fast, free, and right in your browser.
+          </p>
+
+          <div class="qr-input-section">
+            <textarea
+              id="qr-input"
+              placeholder="Enter text or URL"
+              maxlength="800"
+            ></textarea>
+
+            <div class="input-footer">
+              <span id="char-count" class="char-count">0 / 800</span>
+              <button class="generate-btn" disabled>Generate</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="hero-art">
+          <!-- Default decorative art -->
+          <div id="qr-art" class="qr-art"></div>
+
+          <!-- Generated QR + Download -->
+          <div id="qr-result" class="qr-result hidden">
+            <div id="qr-output" class="qr-output"></div>
+            <button class="download-btn">Download</button>
+          </div>
+        </section>
+      </div>
+
+      <!-- Feature strip -->
+      <section class="feature-strip">
+        <div class="feature-track">
+          <span>Instant QR Generation</span>
+          <span>No Sign-ups Required</span>
+          <span>Privacy-Friendly</span>
+          <span>Download & Share Instantly</span>
+          <span>Works Across Devices</span>
+
+          <!-- duplicate for seamless loop -->
+          <span>Instant QR Generation</span>
+          <span>No Sign-ups Required</span>
+          <span>Privacy-Friendly</span>
+          <span>Download & Share Instantly</span>
+          <span>Works Across Devices</span>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <div class="about-container">
+          <h2>About QR-gen</h2>
+
+          <p>
+            QR-gen is built to remove friction from one of the smallest but most
+            frequently repeated tasks in modern digital workflows: sharing
+            information instantly. Whether you're a developer testing links,
+            a designer previewing content across devices, a marketer distributing
+            campaigns, or a student organizing resources, QR-gen helps you move
+            faster without breaking focus. Instead of switching tools, installing
+            apps, or dealing with cluttered interfaces, you can generate clean,
+            scannable QR codes directly in your browser — in seconds.
+            <br /><br />
+            The simplicity of QR-gen is intentional. It’s designed to stay out of
+            your way and integrate naturally into how you already work. Paste a
+            link, type text, generate, and share — no distractions, no unnecessary
+            steps. By keeping the interface minimal and responsive, QR-gen allows
+            you to turn ideas into shareable actions instantly. Over time, these
+            small efficiency gains add up, helping you maintain momentum, reduce
+            context switching, and focus on what actually matters: building,
+            communicating, and getting things done.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          <h2>Let’s Connect</h2>
+
+          <div class="contact-card">
+            <div class="contact-art">
+              <div class="pulse-ring"></div>
+              <div class="pulse-ring delay"></div>
+              <div class="pulse-core"></div>
+            </div>
+
+            <p>
+              QR-gen is an open, evolving project — and your feedback genuinely
+              shapes where it goes next. If you have ideas, feature requests,
+              found a bug, or simply want to share how QR-gen fits into your
+              workflow, I’d love to hear from you.
+              <br /><br />
+              The best place to start the conversation is on GitHub. Drop a
+              comment, open an issue, or star the repo to support the project 🚀
+            </p>
+
+            <a
+              href="https://github.com/your-username/your-repo"
+              target="_blank"
+              class="github-btn"
+            >
+              Visit GitHub →
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Left: QR-gen logo -->
+    <div class="footer-left">
+      <img
+        src="assets/QR-gen-logo-final.png"
+        alt="QR-gen Logo"
+        class="footer-qrgen-logo"
+      />
+    </div>
+
+    <!-- Center: Developed by -->
+    <div class="footer-center">
+      <p class="footer-dev-text">
+        Developed by rohan @
+        <span class="developer-name">codeX</span>
+      </p>
+
+      <a
+        href="https://github.com/your-username/your-repo"
+        target="_blank"
+        class="footer-github-btn"
+      >
+        Visit GitHub →
+      </a>
+    </div>
+
+    <!-- Right: Developer logo placeholder -->
+    <div class="footer-right">
+      <div class="developer-logo-placeholder">
+        <img id="developer-logo-size" src="assets/codeX_black_logo-01.png" alt="codeX">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom copyright -->
+  <div class="footer-bottom">
+    © 2026 QR-gen. All rights reserved.
+  </div>
+</footer>
+
+      
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="generate.js"></script>
+  </body>
+</html>
